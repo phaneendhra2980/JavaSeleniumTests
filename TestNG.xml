@@ -1,0 +1,8 @@
+<suite thread-count="3" parallel="tests" name="TestNGsuite">
+    <test name="LaunchApplication" preserve-order="true">
+        <parameter name="keyWord" value="Selenium" />
+        <classes>
+            <class name="TestNGSample" />
+        </classes>
+    </test> <!-- Test -->    
+</suite> <!-- Suite -->
